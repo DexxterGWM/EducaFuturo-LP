@@ -1,0 +1,75 @@
+/* Estilos gerais da página */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #004aad;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.main-description {
+  padding: 20px;
+  text-align: center;
+}
+
+.info {
+  background: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-description img, .main-description iframe {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+.main-description img {
+  margin-bottom: 20px;
+}
+
+.main-description iframe {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #2e3b4e;
+  color: #f4f4f4;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+footer a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #ff6600;
+}
+
+footer .credits {
+  font-size: 12px;
+  margin-top: 15px;
+  color: #b0b0b0;
+}
